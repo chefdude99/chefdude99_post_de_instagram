@@ -1,0 +1,102 @@
+* {
+  color: black;
+  font-family: 'Courier New';
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: black;
+}
+
+.general_post {
+  margin: auto;
+  background-color: rgba(240, 255, 255, 0.488);
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.post_header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo_html {
+  height: 80%;
+  width: 0%;
+  align-self: center;
+  font-size: 25px;
+  margin: 12px 2px 0 8px;
+}
+
+.textos_header {
+  height: 80%;
+  width: 85%;
+  align-self: flex-start;
+  font-size: 15px;
+  padding: 6px 10px 8px 20px;
+}
+
+.tres_puntos {
+  font-size: 25px;
+  align-self: center;
+  margin: 0 15px 0 0px;
+}
+
+img {
+  width: 100%;
+  height: 50%;
+}
+
+.post_body {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.corazon {
+  height: 80%;
+  width: 4%;
+  align-self: center;
+  font-size: 25px;
+  margin: 5px 10px 0px 8px;
+}
+
+.comentario {
+  height: 80%;
+  width: 4%;
+  align-self: center;
+  font-size: 25px;
+  margin: 5px 10px 0px 8px;
+}
+
+.enviar {
+  height: 80%;
+  width: 4%;
+  align-self: center;
+  font-size: 25px;
+  margin: 5px 10px 0px 8px;
+}
+
+.guardar {
+  margin: 8px 15px 8px 260px;
+  align-self: center;
+  font-size: 25px;
+
+}
+
+.texto_abajo {
+  width: 100%;
+  height: 10%;
+  padding-left: 10px;
+  font-size: 14px;
+}
